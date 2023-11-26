@@ -1,0 +1,70 @@
+.entry-heading{
+    width: 29.28vw;
+    height: 4.5vw;
+    padding: 20px 16px 20px 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+.cross{
+    font-size: 2vw;
+    margin-left: -1vw;
+    cursor: pointer;
+}
+
+.heading-text{
+    font-size: 2vw;
+    text-align: left;
+    width: 26.35vw;
+}
+
+.img-container{
+    width:26.35vw;
+    height: 20vw;
+    overflow: hidden;
+    margin-top: 2vw;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-title{
+    font-size: 1.2vw;
+    margin-top: 2vw;
+}
+
+.detail-container{
+    width: 26.35vw;
+    height: 20vw;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -1vw;
+}
+
+.title-text{
+    margin-top: 0.5vw;
+    height: 2vw;
+    border-radius: 0.6vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.title-para{
+    margin-top: 0.5vw;
+    width: 26.35vw;
+    height: 4vw;
+    background-color: white;
+    overflow: scroll;
+    color: black;
+    padding-bottom: 0.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    box-sizing: border-box;
+    border-radius: 0.6vw;
+}
+
+.title-para::-webkit-scrollbar{
+    display: none;
+}
